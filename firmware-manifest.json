@@ -1,0 +1,8 @@
+{
+  "_comment": "OTA manifest — read by the SmartNode web UI (devices page). To release a new version: 1) Bump MODULE_VERSION in firmware/DevBoard/src/module_manifest.h  2) Build with PlatformIO  3) Upload .pio/build/esp32-c6-devkitc-1/firmware.bin to your GitHub release as firmware-vX.X.X.bin  4) Update 'version' and 'url' below  5) Commit & push — devices will show the Update button automatically.",
+  "com.nodeesp.devboard": {
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/node-esp/nodeesp-firmware/main/esp32-c6/v1.0.0/firmware.bin"
+  }
+}
+    
